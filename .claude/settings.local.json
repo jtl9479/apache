@@ -1,0 +1,10 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(dir \"D:\\PDA\\apache-tomcat-7.0.78_PDA_IN\\webapps\" /B)",
+      "Bash(find:*)"
+    ],
+    "deny": [],
+    "ask": []
+  }
+}
