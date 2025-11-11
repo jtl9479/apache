@@ -21,7 +21,7 @@ String driver = "oracle.jdbc.driver.OracleDriver";
 System.out.println("==========update_shipment=========");
 System.out.println("=================================="); */
 
-request.setCharacterEncoding("euc-kr");
+request.setCharacterEncoding("UTF-8");
 
 //String data = "test::test::test::test::KG::1::1::1::1::2";
 //String[] arrData = data.split("::");

@@ -3,7 +3,7 @@
 <%@ page import="java.security.MessageDigest" %>
 
 <%
-	request.setCharacterEncoding("euc-kr");
+	request.setCharacterEncoding("UTF-8");
 	String id = request.getParameter("id");
 	String pwd = request.getParameter("pwd");
 	System.out.println("id : " + id);

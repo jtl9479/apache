@@ -17,7 +17,7 @@ String driver = "oracle.jdbc.driver.OracleDriver";
  String url = "jdbc:oracle:thin:@1.1.1.1:SIDname";
  //String url = "jdbc:oracle:thin:@192.168.0.7:1523:highland";
 
-request.setCharacterEncoding("euc-kr");
+request.setCharacterEncoding("UTF-8");
 String data = request.getParameter("data");
 String dbid = request.getParameter("dbid"); //real
 System.out.println("=============dbidCheck==============="+dbid);

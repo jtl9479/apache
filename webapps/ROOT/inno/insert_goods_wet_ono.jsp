@@ -13,7 +13,7 @@ Connection conn = null;
 String driver = "oracle.jdbc.driver.OracleDriver";
 String url = "jdbc:oracle:thin:@1.1.1.1:SIDname";
 
-request.setCharacterEncoding("euc-kr");
+request.setCharacterEncoding("UTF-8");
 String data = request.getParameter("data");
 
 try {
